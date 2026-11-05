@@ -1,0 +1,15 @@
+CATALOGO MAGLIE 2026/27
+
+MODIFICARE IL SITO (Visual Studio Code)
+1. File > Apri cartella > scegli "football_jersey_catalog".
+2. Apri index.html e cerca la sezione "IMPOSTAZIONI" dentro <script>.
+3. Prezzo di tutte le maglie: cambia DEFAULT_PRICE.
+   Prezzo o taglie di una sola maglia: aggiungi alla sua riga  price: 42  e/o  sizes: ["M","L"]
+   Maglia esaurita: aggiungi alla sua riga  available: false
+4. Il codice che vede il cliente e' "id" (MAG-001...). Il codice originale del fornitore resta in "supplier" e non e' visibile sul sito.
+5. Per aggiungere una maglia copia una riga, usa un id nuovo (MAG-037...) e aggiungi la foto nella cartella images.
+6. Il carrello (pulsante giallo in basso a destra) invia tutto l'ordine in un solo messaggio WhatsApp.
+7. Doppio clic su index.html per vedere il sito.
+
+PUBBLICARE IL SITO
+Apri https://app.netlify.com/drop e trascina la cartella "football_jersey_catalog".
